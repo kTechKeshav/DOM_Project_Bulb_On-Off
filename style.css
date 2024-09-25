@@ -1,0 +1,57 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+html, body{
+      width: 100%;
+      height: 100%;
+      font-size: 10px;
+}
+
+#container{
+      width: 100%;
+      height: 100%;
+      background-color: #dadada;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+#box{
+      background-color: #00000058;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      justify-content: center;
+      width: 50%;
+      height: 80%;
+      border-radius: 30px;
+}
+
+#bulb{
+      width: 40%;
+      height: 60%;
+}
+
+#bulb img{
+      width: 100%;
+      height: 100%;
+}
+
+button{
+      font-size: 3rem;
+      width: 80px;
+      height: 6vw;
+      background-color: yellow;
+      border-radius: 20px;
+      transition: .3s all linear;
+}
+button:hover{
+      font-size: 3.2rem;
+      width: 100px;
+      height: 6vw;
+      border-radius: 23x;
+}
